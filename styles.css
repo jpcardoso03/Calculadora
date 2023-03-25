@@ -55,27 +55,6 @@ button:hover{
     padding: 5px;
 }
 
-@media screen and (max-width: 800px){
-
-body{
-    background-image: linear-gradient(45deg, #008080, #48D1CC);
-}
-
-.jp{
-    margin: 0px;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 15px;
-    padding: 7px
-}
-
-
-.calculadora{
-    
-    margin-left: 75px;
-}
-
-}
 
 @media screen and (max-width: 850px){
     body{
@@ -97,5 +76,51 @@ body{
     }
 
 }
+
+@media screen and (max-width: 770px){
+    body{
+        background-image: linear-gradient(45deg, #008080, #48D1CC);
+    }
+    
+    .jp{
+        margin: 0px;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+        padding: 7px
+    }
+    
+    
+    .calculadora{
+        
+        margin-left: 250px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 700px){
+
+body{
+    background-image: linear-gradient(45deg, #008080, #48D1CC);
+}
+
+.jp{
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 7px
+}
+
+
+.calculadora{
+    
+    margin-left: 75px;
+}
+
+}
+
 
 
